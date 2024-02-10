@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+  background-color: #e6f7ff
+  ;
+}
+.heading {
+  background-color: black;
+  height: 5rem;
+  color: white;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.images {
+  display: flex;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+  /* position: relative; */
+}
+.images img {
+  height: 12rem;
+  border-radius: 50%;
+  width: 12rem;
+  object-fit: cover;
+}
+.images img:hover {
+  border: 5px solid black;
+}
+.images p {
+  font-weight: bold;
+  /* align-self: flex-end; */
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 2rem;
+  text-decoration-line: underline;
+}
+.scores {
+  display: flex;
+  /* flex-direction: column; */
+  height: 10rem;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  font-size: 2.5em;
+  margin: 3rem 0;
+}
+.score1 {
+  display: block;
+  text-align: center;
+  /* text-decoration-line: underline; */
+}
+.score2 {
+  display: block;
+  text-align: center;
+  /* text-decoration-line: underline; */
+}
+.result{
+  /* text-align: center; */
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  background-color: rgba(0, 255, 255, 0.489);
+  display: flex;
+  justify-content: center;
+  width: 31%;
+  margin: 0 auto;
+  border-radius: 5px ;
+  box-shadow: 2px 2px 2px 2px black;
+}
+.pointer {
+  cursor: pointer;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 18px; /* Adjust font size for larger screens */
+  }
+}
