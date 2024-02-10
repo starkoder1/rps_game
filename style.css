@@ -89,10 +89,20 @@ body{
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   html {
-    font-size: 8px; /* Adjust font size for smaller screens */
-    
+    font-size: 8px; /* Adjust font size for smaller screens */}
 
-  }
+.result {
+width: 45%;
+padding: 1rem;
+margin-top: 5rem;
+font-size: 2.5rem;
+}
+.scores{
+margin-top: 5rem;
+}
+.images{
+margin-top: 8rem;
+}
 }
 
 /* Media query for larger screens */
